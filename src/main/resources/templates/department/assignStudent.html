@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<!--/*/ <th:block th:include="@{fragments/common}::head(${title})"></th:block> /*/-->
+<body>
+<!--/*/ <th:block th:include="@{fragments/common} :: navigation"></th:block> /*/-->
+<h3> Assign Student in Department</h3>
+
+<!----------------------------------------------------Student Save Form------------------------------------------------------->
+<form class="form ">
+
+    <input type="hidden" name="departmentId"/>
+
+    Department List: <input type="text" name="departmentName" required/></br>
+
+    Student List: <input type="text" name="srudentName" required/> <br>
+
+    <button class="btn badge-primary" type="submit">Save</button>
+
+</form>
+</body>
+</html>
